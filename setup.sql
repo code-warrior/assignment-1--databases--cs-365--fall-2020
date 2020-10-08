@@ -4,3 +4,4 @@ USE passwords;
 CREATE USER IF NOT EXISTS 'venrob'@'localhost' IDENTIFIED BY '1234';
 GRANT ALL PRIVILEGES ON passwords.* TO 'venrob'@'localhost';
 SOURCE create_tables.sql;
+SOURCE setup_encr.sql;
