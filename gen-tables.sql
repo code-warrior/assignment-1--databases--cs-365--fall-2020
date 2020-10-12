@@ -10,10 +10,10 @@ CREATE TABLE IF NOT EXISTS  account(
      account_instance_id INT(7) NOT NULL,
      email VARCHAR(256),
      username VARCHAR(256),
-     pass VARBINARY(128) NOT NULL, #PRODUCE Binary string values after AES_ENCRYPT
-     site VARCHAR(64) NOT NULL,
+     pass VARBINARY(128), #PRODUCE Binary string values after AES_ENCRYPT
+     site VARCHAR(64),
      sitename VARCHAR(128) NOT NULL,
      timestamp DATETIME  DEFAULT CURRENT_TIMESTAMP(),
-     comment VARCHAR(64) NOT NULL,
+     comment VARCHAR(64),
      PRIMARY KEY(account_instance_id)
     )    CHARACTER SET 'utf8' COLLATE utf8_general_ci;
