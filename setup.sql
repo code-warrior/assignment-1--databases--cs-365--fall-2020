@@ -38,3 +38,9 @@ INSERT INTO user VALUES (1,"Harry","Potter");
 INSERT INTO user VALUES (2,"Ron","Weasly");
 INSERT INTO user VALUES (3,"Hermione","Granger");
 
+INSERT INTO site VALUES (1, "Youtube", "https://www.youtube.com/");
+INSERT INTO site VALUES (2, "facebook", "https://www.facebook.com/");
+INSERT INTO site VALUES (3, "Minecraft", "https://www.minecraft.net/");
+INSERT INTO site VALUES (4, "Audible", "https://www.audible.com/");
+INSERT INTO site VALUES (5, "Pottermore", "https://www.wizardingworld.com/");
+
