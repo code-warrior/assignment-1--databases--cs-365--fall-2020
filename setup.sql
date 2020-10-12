@@ -12,3 +12,11 @@ CREATE TABLE user (
   lastname  VARCHAR(60) NOT NULL,
   PRIMARY KEY (user_id)
 );
+
+CREATE TABLE site (
+  site_id SMALLINT(5)  NOT NULL,
+  website VARCHAR(128) NOT NULL,
+  url     VARCHAR(128) NOT NULL,
+  PRIMARY KEY (site_id)
+);
+
