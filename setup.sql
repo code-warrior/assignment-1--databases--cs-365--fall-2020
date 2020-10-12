@@ -35,3 +35,14 @@ CREATE TABLE pass (
     password_time VARCHAR(10) NOT NULL,
     PRIMARY KEY (website_id, username_id)
 );
+
+INSERT INTO website VALUES (0, "Facebook", "https://www.facebook.com/");
+INSERT INTO website VALUES (1, "Instagram", "https://www.instagram.com/");
+INSERT INTO website VALUES (2, "Twitter", "https://twitter.com/");
+INSERT INTO website VALUES (3, "Tumblr", "https://www.tumblr.com/");
+INSERT INTO website VALUES (4, "LinkedIn", "https://www.linkedin.com/");
+INSERT INTO website VALUES (5, "WikiDot", "http://www.wikidot.com/");
+INSERT INTO website VALUES (6, "Reddit", "https://www.reddit.com/");
+INSERT INTO website VALUES (7, "Mix", "https://mix.com/");
+INSERT INTO website VALUES (8, "MyShopify", "http://myshopify.com/");
+INSERT INTO website VALUES (9, "UofWashington", "http://www.washington.edu/");
