@@ -1,0 +1,1 @@
+INSERT INTO user VALUES (1, 2, "eagle-playground", "Jim", "Bob", "junkeamil@gmail.com", AES_ENCRYPT("1234", "secretpass"), "GitHub sandbox account.");
