@@ -53,3 +53,6 @@ INSERT INTO account VALUES (1, 2, 1,"hotpot",AES_ENCRYPT("wishIwasm4gic","rowlin
 INSERT INTO account VALUES (1, 3, 1,"theblockwholived",AES_ENCRYPT("mashedpotatoes","rowling"),"im_a_wizard@gmail.com");
 INSERT INTO account VALUES (2, 3, 2,"TheKing",AES_ENCRYPT("checkmate","rowling"),"what_is_email@hotmail.com");
 
+INSERT INTO account VALUES (2, 4, 2,"mcronalds",AES_ENCRYPT("chudleycannons","rowling"),"what_is_email@hotmail.com","Hermione recommended this for reading assignments.");
+INSERT INTO account VALUES (3, 4, 1,"hermioneGranger7",AES_ENCRYPT("orthodontists","rowling"),"hermione_granger@gmail.com","Useful for both school and free time.");
+
