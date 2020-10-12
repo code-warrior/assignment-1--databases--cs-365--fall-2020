@@ -7,6 +7,7 @@ INSERT INTO website VALUES (6, "https://ebay.com/", "eBay");
 INSERT INTO website VALUES (7, "http://reddit.com/", "Reddit");
 INSERT INTO website VALUES (8, "https://facebook.com/", "Facebook");
 INSERT INTO website VALUES (9, "https://twitter.com/", "Twitter");
+INSERT INTO website VALUES (10, "https://www.nytimes.com/", "New York Times");
 
 INSERT INTO user VALUES (1, 1, "keith-E", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("123456", "secretpass"), "Main GitHub account.");
 INSERT INTO user VALUES (1, 2, "eagle-playground", "Jim", "Bob", "junkeamil@gmail.com", AES_ENCRYPT("1234", "secretpass"), "GitHub sandbox account.");
@@ -17,3 +18,4 @@ INSERT INTO user VALUES (5, 1, "EagleTV", "Keith", "Eagleson", "eagletv@gmail.co
 INSERT INTO user VALUES (6, 1, "keithBuysStuff", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("asdf123", "secretpass"), "eBay - Buy things I don't need.");
 INSERT INTO user VALUES (7, 1, "SuperCoolUsername", "Anon", "Ymous", "fakeemail@hotmail.com", AES_ENCRYPT("123456asdf", "secretpass"), "Look at cat pictures.");
 INSERT INTO user VALUES (8, 1, "keagleson28@gmail.com", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("1a3b4c5d6", "secretpass"), "Delete Facebook.");
+INSERT INTO user VALUES (8, 1, "itskeithyy", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("twitt123", "secretpass"), "Twitter account.");
