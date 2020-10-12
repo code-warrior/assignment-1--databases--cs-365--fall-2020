@@ -50,3 +50,6 @@ INSERT INTO account VALUES (3, 1, 2,"nerdybirdy400",AES_ENCRYPT("whyn0tRavens?",
 
 INSERT INTO account VALUES (1, 2, 1,"hotpot",AES_ENCRYPT("wishIwasm4gic","rowling"),"hotpot@gmail.com","Don't really use facebook anymore but idk how to delete.");
 
+INSERT INTO account VALUES (1, 3, 1,"theblockwholived",AES_ENCRYPT("mashedpotatoes","rowling"),"im_a_wizard@gmail.com");
+INSERT INTO account VALUES (2, 3, 2,"TheKing",AES_ENCRYPT("checkmate","rowling"),"what_is_email@hotmail.com");
+
