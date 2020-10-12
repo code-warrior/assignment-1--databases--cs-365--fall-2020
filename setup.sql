@@ -31,7 +31,7 @@ CREATE TABLE user (
 CREATE TABLE pass (
     website_id  SMALLINT(3) NOT NULL,
     username_id SMALLINT(4) NOT NULL,
-    password_encrpt VARBINARY(128) NOT NULL,
+    password_encrypt VARBINARY(128) NOT NULL,
     password_time VARCHAR(10) NOT NULL,
     PRIMARY KEY (website_id, username_id)
 );
