@@ -14,5 +14,5 @@ CREATE TABLE user (
     `password` VARBINARY(255) NOT NULL,
     comment VARCHAR(255) DEFAULT NULL,
     PRIMARY KEY (website_id, user_id),
-    UNIQUE KEY username_and_email (username, email)
+    UNIQUE KEY username (username)
 );
