@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS website_passwords;
-CREATE DATABASE website_passwords;
-USE website_passwords;
+DROP DATABASE IF EXISTS passwords;
+CREATE DATABASE passwords;
+USE passwords;
 source commands.sql;
