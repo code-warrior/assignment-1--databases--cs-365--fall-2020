@@ -10,7 +10,6 @@ INSERT INTO website VALUES (9, "https://twitter.com/", "Twitter");
 INSERT INTO website VALUES (10, "https://www.nytimes.com/", "New York Times");
 
 INSERT INTO user VALUES (1, 1, "keith-E", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("123456", "secretpass"), "Main GitHub account.");
-INSERT INTO user VALUES (1, 2, "eagle-playground", "Jim", "Bob", "junkeamil@gmail.com", AES_ENCRYPT("1234", "secretpass"), "GitHub sandbox account.");
 INSERT INTO user VALUES (2, 1, "keagleson", "Keith", "Eagleson", "keagleson@hartford.edu", AES_ENCRYPT("12345678", "secretpass"), "UHart BlackBoard account.");
 INSERT INTO user VALUES (3, 1, "h4x0r", "Keith", "Eagleson", "obscureemail@gmail.com", AES_ENCRYPT("4!2#qwerTo$2", "secretpass"), "Practice PenTesting.");
 INSERT INTO user VALUES (4, 1, "admin", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("1234566", "secretpass"), "Admin account for personal/portfolio website.");
@@ -18,4 +17,5 @@ INSERT INTO user VALUES (5, 1, "EagleTV", "Keith", "Eagleson", "eagletv@gmail.co
 INSERT INTO user VALUES (6, 1, "keithBuysStuff", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("asdf123", "secretpass"), "eBay - Buy things I don't need.");
 INSERT INTO user VALUES (7, 1, "SuperCoolUsername", "Anon", "Ymous", "fakeemail@hotmail.com", AES_ENCRYPT("123456asdf", "secretpass"), "Look at cat pictures.");
 INSERT INTO user VALUES (8, 1, "keagleson28@gmail.com", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("1a3b4c5d6", "secretpass"), "Delete Facebook.");
-INSERT INTO user VALUES (8, 1, "itskeithyy", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("twitt123", "secretpass"), "Twitter account.");
+INSERT INTO user VALUES (9, 1, "itskeithyy", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("twitt123", "secretpass"), "Twitter account.");
+INSERT INTO user VALUES (10, 1, "keagleson28@gmail.com", "Keith", "Eagleson", "keagleson28@gmail.com", AES_ENCRYPT("1234", "secretpass"), "NYTimes sub.");
