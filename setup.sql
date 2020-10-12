@@ -48,3 +48,5 @@ INSERT INTO account VALUES (1, 1, 1,"lightningScar",AES_ENCRYPT("kachow!kachow",
 INSERT INTO account VALUES (3, 1, 1,"brightFutureAhead",AES_ENCRYPT("nodistractions","rowling"),"hermione_granger@gmail.com","FOR EDUCATIONAL VIDEOS ONLY.");
 INSERT INTO account VALUES (3, 1, 2,"nerdybirdy400",AES_ENCRYPT("whyn0tRavens?","rowling"),"witch1@gmail.com","For casual entertainment videos.");
 
+INSERT INTO account VALUES (1, 2, 1,"hotpot",AES_ENCRYPT("wishIwasm4gic","rowling"),"hotpot@gmail.com","Don't really use facebook anymore but idk how to delete.");
+
