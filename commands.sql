@@ -16,7 +16,7 @@ INNER JOIN websites ON websites.website_id = websiteInfo.website_id
 WHERE websites.website_URL = "https://twitter.com";
 
 --Decryption not working not sure why
-SELECT website_password, AES_DECRYPT('0xD5C202A9ED307E7C6A969326D6872A0D', 'fas21')
+SELECT website_password, AES_DECRYPT(website_password, 'fas21')
 FROM websiteInfo
 INNER JOIN websites ON websites.website_id = websiteInfo.website_id
 WHERE websites.website_URL = "https://twitter.com";
