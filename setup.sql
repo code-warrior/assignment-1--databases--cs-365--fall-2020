@@ -57,3 +57,14 @@ INSERT INTO comment VALUES (6, 0, "Reddit comment");
 INSERT INTO comment VALUES (7, 0, "Mix comment");
 INSERT INTO comment VALUES (8, 0, "MyShopify comment");
 INSERT INTO comment VALUES (9, 0, "UofWashington comment");
+
+INSERT INTO user VALUES (0, 0, "TimFacebook", "TimEmail123@email.com", "Timothy", "Kodz");
+INSERT INTO user VALUES (1, 0, "TimInstagram", "TimEmail123@email.com", "Timothy", "Kodz");
+INSERT INTO user VALUES (2, 0, "TimTwitter", "TimEmail123@email.com", "Timothy", "Kodz");
+INSERT INTO user VALUES (3, 0, "TimTumblr", "TimEmail123@email.com", "Timothy", "Kodz");
+INSERT INTO user VALUES (4, 0, "TimLinkedIn", "TimEmail123@email.com", "Timothy", "Kodz");
+INSERT INTO user VALUES (5, 0, "TimWikiDot", "TimEmail123@email.com", "Timothy", "Kodz");
+INSERT INTO user VALUES (6, 0, "TimReddit", "TimEmail123@email.com", "Timothy", "Kodz");
+INSERT INTO user VALUES (7, 0, "TimMix", "TimEmail123@email.com", "Timothy", "Kodz");
+INSERT INTO user VALUES (8, 0, "TimMyShopify", "TimEmail123@email.com", "Timothy", "Kodz");
+INSERT INTO user VALUES (9, 0, "TimUofWashington", "TimEmail123@email.com", "Timothy", "Kodz");
