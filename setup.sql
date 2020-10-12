@@ -32,3 +32,9 @@ CREATE TABLE account (
   PRIMARY KEY (user_id, site_id, account_id)
 );
 
+/* insert values */
+
+INSERT INTO user VALUES (1,"Harry","Potter");
+INSERT INTO user VALUES (2,"Ron","Weasly");
+INSERT INTO user VALUES (3,"Hermione","Granger");
+
