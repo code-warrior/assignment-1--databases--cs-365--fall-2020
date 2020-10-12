@@ -46,3 +46,14 @@ INSERT INTO website VALUES (6, "Reddit", "https://www.reddit.com/");
 INSERT INTO website VALUES (7, "Mix", "https://mix.com/");
 INSERT INTO website VALUES (8, "MyShopify", "http://myshopify.com/");
 INSERT INTO website VALUES (9, "UofWashington", "http://www.washington.edu/");
+
+INSERT INTO comment VALUES (0, 0, "Facebook comment");
+INSERT INTO comment VALUES (1, 0, "Instagram comment");
+INSERT INTO comment VALUES (2, 0, "Twitter comment");
+INSERT INTO comment VALUES (3, 0, "Tumblr comment");
+INSERT INTO comment VALUES (4, 0, "LinkedIn comment");
+INSERT INTO comment VALUES (5, 0, "WikiDot comment");
+INSERT INTO comment VALUES (6, 0, "Reddit comment");
+INSERT INTO comment VALUES (7, 0, "Mix comment");
+INSERT INTO comment VALUES (8, 0, "MyShopify comment");
+INSERT INTO comment VALUES (9, 0, "UofWashington comment");
