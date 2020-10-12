@@ -26,12 +26,12 @@ At the syntax level, implement the database to handle the aforementioned operati
 Create MySQL commands to do the following:
 
    * Create a new entry into the database, which already has your 10 initial entries
-   * Get the password associated with the URL of one of your 10 entries
-   * Get all the password-related data, including the password, associated with URLs that have `https` in one of your 10 entries
-   * Change a URL associated with one of the passwords in your 10 entries
-   * Change any password
-   * Remove a URL
-   * Remove a password
+   * Get the password associated with the URL of one of your 10 entries | DONE
+   * Get all the password-related data, including the password, associated with URLs that have `https` in one of your 10 entries | DONE
+   * Change a URL associated with one of the passwords in your 10 entries | DONE
+   * Change any password | DONE
+   * Remove a URL | DONE?
+   * Remove a password | DONE?
 
 ## ❖・Rules・❖
 * The database name **must** be `passwords`.
