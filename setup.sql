@@ -5,3 +5,4 @@ USE passwords;
 
 source create-tables.sql;
 source insert-values.sql;
+source commands.sql;
