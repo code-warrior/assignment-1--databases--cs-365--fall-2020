@@ -10,3 +10,6 @@ SELECT firstname, lastname, username, CAST(AES_DECRYPT(password, "rowling") AS C
 /* Change a URL associated with one of the passwords in your 10 entries */
 UPDATE site SET url = "https://stories.audible.com/start-listen" WHERE website = "Audible";
 
+/* Change any password */
+UPDATE account SET password = AES_ENCRYPT("magicalWorld","rowling") WHERE user_id = 1 AND site_id = 3 AND account_id = 1;
+
