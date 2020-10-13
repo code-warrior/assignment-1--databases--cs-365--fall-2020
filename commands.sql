@@ -13,3 +13,6 @@ UPDATE site SET url = "https://stories.audible.com/start-listen" WHERE website =
 /* Change any password */
 UPDATE account SET password = AES_ENCRYPT("magicalWorld","rowling") WHERE user_id = 1 AND site_id = 3 AND account_id = 1;
 
+/* Remove a URL */
+DELETE FROM site WHERE website = "Google";
+
