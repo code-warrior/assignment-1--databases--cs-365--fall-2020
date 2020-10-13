@@ -16,7 +16,7 @@ CREATE TABLE user (
 CREATE TABLE site (
   site_id SMALLINT(5)  NOT NULL,
   website VARCHAR(128) NOT NULL,
-  url     VARCHAR(128) NOT NULL,
+  url     VARCHAR(200) NOT NULL,
   PRIMARY KEY (site_id)
 );
 
