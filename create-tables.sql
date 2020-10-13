@@ -12,6 +12,6 @@ CREATE TABLE users (
     user_last_name VARCHAR(255) NOT NULL,
     user_email VARCHAR(255) NOT NULL,
     user_password VARBINARY(255),
-    user_comment VARCHAR(255) DEFAULT NULL,
+    user_comment VARCHAR(255),
     PRIMARY KEY (website_id, user_id)
 );
