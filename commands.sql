@@ -7,3 +7,6 @@ SELECT CAST(AES_DECRYPT(password, "rowling") AS CHAR) FROM account INNER JOIN si
 /* Get all the password-related data, including the password, associated with URLs that have `https` in one of your 10 entries */
 SELECT firstname, lastname, username, CAST(AES_DECRYPT(password, "rowling") AS CHAR), email, url FROM account INNER JOIN site on account.site_id = site.site_id INNER JOIN user on user.user_id = account.user_id WHERE url LIKE "https%";
 
+/* Change a URL associated with one of the passwords in your 10 entries */
+UPDATE site SET url = "https://stories.audible.com/start-listen" WHERE website = "Audible";
+
