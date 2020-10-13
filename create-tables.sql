@@ -13,6 +13,6 @@ CREATE TABLE users (
     user_email VARCHAR(255) NOT NULL,
     user_password VARBINARY(255),
     user_comment VARCHAR(255),
-    user_password_ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE user_password,
+    user_password_ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (website_id, user_id)
 );
