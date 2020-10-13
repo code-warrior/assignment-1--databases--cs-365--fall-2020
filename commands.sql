@@ -16,3 +16,5 @@ UPDATE account SET password = AES_ENCRYPT("magicalWorld","rowling") WHERE user_i
 /* Remove a URL */
 DELETE FROM site WHERE website = "Google";
 
+/* Remove a Password */
+DELETE FROM account WHERE site_id = 2 AND user_id = 1;
