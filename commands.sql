@@ -6,3 +6,5 @@ SET @pass_encrypt = (SELECT password_encrypt FROM account WHERE website_url LIKE
     SET @pass_decrypt = (AES_DECRYPT(@pass_encrypt, UNHEX(SHA2('Password Encoder', 512)))); 
     SELECT @pass_decrypt//
 
+SELECT * FROM account WHERE website_url LIKE "https%"//
+
