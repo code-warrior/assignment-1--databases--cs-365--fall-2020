@@ -1,3 +1,5 @@
+DROP DATABASE passwords;
+
 CREATE DATABASE passwords DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
 USE passwords;
@@ -22,7 +24,7 @@ CREATE TABLE accounts (
   user_id int,
   website_id int,
   username varchar(50) NOT NULL,
-  password_hash varchar(50) NOT NULL,
+  password_hash varbinary(50) NOT NULL,
   comment text,
   stamp datetime DEFAULT CURRENT_TIMESTAMP
 );
@@ -41,24 +43,25 @@ INSERT INTO websites VALUES (3, 'https://www.safebank.com', 'Safe Bank Online Ba
 INSERT INTO websites VALUES (4, 'http://www.netflix.com', "Netflix");
 
 INSERT INTO accounts (account_id, user_id, website_id, username, password_hash,comment)
-    VALUES (1, 1, 1, 'jobro123', 'moneymachine!', 'Amazon Account');
+    VALUES (1, 1, 1, 'jobro123', AES_ENCRYPT('moneymachine!', 'CS365'), 'Amazon Account');
 INSERT INTO accounts (account_id, user_id, website_id, username, password_hash,comment)
-    VALUES (2, 1, 2, 'katluverjoe', 'bigscarytiger!', 'Joe\'s Cat Blog');
+    VALUES (2, 1, 2, 'katluverjoe', AES_ENCRYPT('bigscarytiger!', 'CS365'), 'Joe\'s Cat Blog');
 INSERT INTO accounts (account_id, user_id, website_id, username, password_hash,comment)
-    VALUES (3, 1, 4, 'jostar1997', 'moviechill!', 'Family Netflix Account');
+    VALUES (3, 1, 4, 'jostar1997', AES_ENCRYPT('moviechill!', 'CS365'), 'Family Netflix Account');
 INSERT INTO accounts (account_id, user_id, website_id, username, password_hash,comment)
-    VALUES (4, 2, 1, 'danofsteel', 'sasha_10112002', 'Danny Personal Amazon Acct');
+    VALUES (4, 2, 1, 'danofsteel', AES_ENCRYPT('sasha_10112002', 'CS365'), 'Danny Personal Amazon Acct');
 INSERT INTO accounts (account_id, user_id, website_id, username, password_hash,comment)
-    VALUES (5, 2, 1, 'DanielSteele', 'workinman1969', 'Dan\'s Business Amazon Acct');
+VALUES (5, 2, 1, 'DanielSteele', AES_ENCRYPT('workinman1969', 'CS365'), 'Dan\'s Business Amazon Acct');
 INSERT INTO accounts (account_id, user_id, website_id, username, password_hash,comment)
-    VALUES (6, 2, 3, 'DSTeele', 'supersafepassword', 'Banking Information');
+    VALUES (6, 2, 3, 'DSTeele', AES_ENCRYPT('supersafepassword', 'CS365'), 'Banking Information');
 INSERT INTO accounts (account_id, user_id, website_id, username, password_hash,comment)
-    VALUES (7, 3, 1, 'MrMachoMan', 'peopleselbow', 'Amazon Account');
+    VALUES (7, 3, 1, 'MrMachoMan', AES_ENCRYPT('peopleselbow', 'CS365'), 'Amazon Account');
 INSERT INTO accounts (account_id, user_id, website_id, username, password_hash,comment)
-    VALUES (8, 3, 2, 'SavageLion', 'slimjim321', 'Macho Man Cat Blog');
+    VALUES (8, 3, 2, 'SavageLion', AES_ENCRYPT('slimjim321', 'CS365'), 'Macho Man Cat Blog');
 INSERT INTO accounts (account_id, user_id, website_id, username, password_hash,comment)
-    VALUES (9, 3, 3, 'RSavage84', 'petunia2007', 'Randy\'s Bank Account');
+    VALUES (9, 3, 3, 'RSavage84', AES_ENCRYPT('petunia2007', 'CS365'), 'Randy\'s Bank Account');
 INSERT INTO accounts (account_id, user_id, website_id, username, password_hash,comment)
-    VALUES (10, 3, 4, 'RSavage', 'machomovies', 'Netflix Account');
+    VALUES (10, 3, 4, 'RSavage', AES_ENCRYPT('machomovies', 'CS365'), 'Netflix Account');
+
 
 \! echo 'DONE!';
