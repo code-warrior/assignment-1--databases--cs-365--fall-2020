@@ -13,9 +13,7 @@ VALUES (
     );
 
 -- Get the password associated with the URL of one of the 10 entries.
-SELECT CAST(
-        AES_DECRYPT(user_password, @key_str, @init_vector) AS CHAR
-    )
+SELECT CAST(AES_DECRYPT(user_password, @key_str, @init_vector) AS CHAR)
 FROM users
 WHERE website_id IN (
         SELECT website_id
@@ -24,10 +22,7 @@ WHERE website_id IN (
     );
 
 -- Get all the password-related data, including the password, associated with URLs that have https.
-SELECT user_password,
-    CAST(
-        AES_DECRYPT(user_password, @key_str, @init_vector) AS CHAR
-    )
+SELECT user_password, CAST(AES_DECRYPT(user_password, @key_str, @init_vector) AS CHAR)
 FROM users
 WHERE website_id IN (
         SELECT website_id
@@ -41,9 +36,7 @@ SET website_url = 'https://learngitbranching.js.org/'
 WHERE website_id IN (
         SELECT website_ID
         FROM users
-        WHERE CAST(
-                AES_DECRYPT(user_password, @key_str, @init_vector) AS CHAR
-            ) = '1234'
+        WHERE CAST(AES_DECRYPT(user_password, @key_str, @init_vector) AS CHAR) = '1234'
     );
 
 -- Change any password.
