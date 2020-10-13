@@ -4,6 +4,7 @@ CREATE TABLE websites (
     website_name VARCHAR(255),
     PRIMARY KEY (website_id)
 );
+
 CREATE TABLE users (
     website_id TINYINT(12) NOT NULL,
     user_id TINYINT(5) NOT NULL,
