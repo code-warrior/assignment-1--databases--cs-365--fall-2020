@@ -7,8 +7,9 @@ VALUES (
         "Jim",
         "Bob",
         "junkeamil@gmail.com",
-        AES_ENCRYPT("1234", "secretpass"),
-        "GitHub sandbox account."
+        AES_ENCRYPT("1234", @key_str, @init_vector),
+        "GitHub sandbox account.",
+        CURRENT_TIMESTAMP
     );
 
 -- Get the password associated with the URL of one of the 10 entries.
