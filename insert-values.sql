@@ -1,0 +1,21 @@
+INSERT INTO website VALUES (1, 'Facebook',  'https://www.facebook.com');
+INSERT INTO website VALUES (2, 'yourmorals.org', 'http://www.yourmorals.org');
+INSERT INTO website VALUES (3, 'LeetCode', 'https://leetcode.com');
+INSERT INTO website VALUES (4, 'Blackboard', 'https://blackboard.hartford.edu');
+INSERT INTO website VALUES (5, 'Linkedin', 'https://www.linkedin.com');
+INSERT INTO website VALUES (6, 'bhphotovideo',  'http://www.bhphotovideo.com');
+INSERT INTO website VALUES (7, 'GitHub',  'https://github.com');
+INSERT INTO website VALUES (8, 'Chegg',  'https://www.chegg.com');
+INSERT INTO website VALUES (9, 'Dominos',  'https://dominos.com');
+INSERT INTO website VALUES (10,'Twitter',  'https://twitter.com');
+
+INSERT INTO account VALUES(1, 1, 'Darth', 'Vader', 'dvader@hotmail.com', 'vdarth', AES_ENCRYPT('thedarkside', 'dansecretkey'), 'social media', CURRENT_TIMESTAMP);
+INSERT INTO account VALUES(2, 1, 'Vladimer', 'Vasilivich', 'vlad@mail.ru', 'vasilivich95', AES_ENCRYPT('E8&7&@Gds6', 'dansecretkey'), 'learn about your own morality', CURRENT_TIMESTAMP);
+INSERT INTO account VALUES(3, 1, 'John', 'Smith', 'smith90@hotmail.com', 'genericsmith', AES_ENCRYPT('P3J1I3TL$j', 'dansecretkey'), 'coding courses', CURRENT_TIMESTAMP);
+INSERT INTO account VALUES(4, 1, 'Daniel', 'Baqaeen', 'dbaqaeen@nothing.com', 'danb', AES_ENCRYPT('weakpassword', 'dansecretkey'), 'learning management system', CURRENT_TIMESTAMP);
+INSERT INTO account VALUES(5, 1, 'Alex', 'Romino', 'alexr@gmail.com', 'alexro', AES_ENCRYPT('&aL^8b3Mhn', 'dansecretkey'), 'professional networking', CURRENT_TIMESTAMP);
+INSERT INTO account VALUES(6, 1, 'Luke', 'Skywalker', 'skywalker@starwars.com', 'forcebalancer', AES_ENCRYPT('skywalker1995', 'dansecretkey'), 'electronic store', CURRENT_TIMESTAMP);
+INSERT INTO account VALUES(7, 1, 'Dan', 'Viktorov', 'vikt.dan@test.com', 'dancoder', AES_ENCRYPT('easilyhackable', 'dansecretkey'), 'task management and collabortion', CURRENT_TIMESTAMP);
+INSERT INTO account VALUES(8, 1, 'Boba', 'Fett', 'boba@bounty.com', 'fettboba', AES_ENCRYPT('39TA&JqZy9', 'dansecretkey'), 'book buying/renting and tutoring,', CURRENT_TIMESTAMP);
+INSERT INTO account VALUES(9, 1, 'Han', 'Solo', 'embaressingchildhoodemail@yahoo.com', 'chewbacca', AES_ENCRYPT('notsecurepassword', 'dansecretkey'), 'fast food', CURRENT_TIMESTAMP);
+INSERT INTO account VALUES(10, 1, 'Kevin', 'Solenzo', 'kevinsmart@outlook.com', 'solenzo82', AES_ENCRYPT('hvLsv3#@5d', 'dansecretkey'), 'social media', CURRENT_TIMESTAMP);
