@@ -43,6 +43,7 @@ INSERT INTO site VALUES (2, "facebook", "https://www.facebook.com/");
 INSERT INTO site VALUES (3, "Minecraft", "https://www.minecraft.net/");
 INSERT INTO site VALUES (4, "Audible", "https://www.audible.com/");
 INSERT INTO site VALUES (5, "Pottermore", "https://www.wizardingworld.com/");
+INSERT INTO site VALUES (6, "Google", "https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjovf6m6-brAhWkhOAKHaBNDx0QPQgI");
 
 INSERT INTO account VALUES (1, 1, 1,"lightningScar",AES_ENCRYPT("kachow!kachow","rowling"),"hotpot@gmail.com");
 INSERT INTO account VALUES (3, 1, 1,"brightFutureAhead",AES_ENCRYPT("nodistractions","rowling"),"hermione_granger@gmail.com","FOR EDUCATIONAL VIDEOS ONLY.");
